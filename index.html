@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Roll Dice</title>
+</head>
+<body>
+        <h1>ROLL DICE</h1>
+            <p>Please select the number of dice,
+                <br />
+                and the result will display below.</p>
+    <div class="container">
+        <button onclick="scoreRst(); rollDice1()">ONE</button>
+        <button onclick="rollDice1(); rollDice2();">TWO</button>
+        <button id="reset" onclick="scoreRst()">RESET</button>
+    </div>
+    <div class="cont">
+        <h2 id="score">n/a</h2>
+        <h2 id="scoreTwo">n/a</h2>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
